@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/p1name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="@string/player_1_default_name"
+            android:textAlignment="center"
+            android:textColor="	#000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/p1wins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/initial_games_played_0"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/p2name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/player_2_default_name"
+            android:textAlignment="center"
+            android:textColor="	#000"
+            android:textSize="30sp"
+            android:fontFamily="serif"/>
+        <TextView
+            android:id="@+id/p2wins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/initial_games_played_0"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30sp"/>
+    </LinearLayout>
+</LinearLayout>
